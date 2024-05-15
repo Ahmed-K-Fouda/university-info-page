@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add links of google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- end tag of google font -->
+    <!-- add link css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- add link fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>About us</title>
+</head>
+<section class="about-header" id="Home">
+    <!-- create nav  -->
+
+    <nav>
+        
+        <a href="index.html"><img src="./image/logo.png"></a>
+        <!-- add div to links -->
+        <div class="nav-links" id="navLinks">
+            <!-- add fa cancel to hide menu -->
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </div> <!--end class nav-links-->   
+        <!-- add fa bars to show menu -->
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <!-- add text on the background -->
+    <div class="text-box">
+        <!-- add header -->
+        <h1>About Us</h1>
+    </div><!--end class text-box-->
+</section><!--end section header-->
+
+<!-- section for content about -->
+<section class="about">
+    <!-- create div -->
+    <div class="row">
+        <div class="about-col">
+            <h1>we are the world largest university</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. E
+                plicabo molestias officia exercitationem perspiciatis cum, porro
+                neque veniam velit quidem ea optio itaque impedit voluptatum ipsam,
+                ipsum dolor sit amet, consectetur adipisicing elit. E
+                plicabo molestias officia exercitationem perspiciatis cum, porro
+                neque veniam velit quide
+                omnis magni iste corrupti rem.</p>
+                <a href="" class="text-btn">EXPLORE NOW</a>
+        </div><!--end about-col--->
+        <div class="about-col">
+            <img src="./image/about.jpg">
+        </div>
+    </div><!--end row div-->
+</section>
+
+<section class="footer">
+    <!-- create header and paragraph -->
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit ae id vitae esse minus
+        ! Aperiam veritatis sapiente labore? Impedit, illum.</p>
+        <!-- create div for icon -->
+        <div class="icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    </div><!--end icon class-->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+     function showMenu(){
+     navLinks.style.top = "0";
+     }
+     function hideMenu(){
+     navLinks.style.top = "-400px";
+    }
+    
+    
+ </script>
